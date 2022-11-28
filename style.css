@@ -1,0 +1,241 @@
+
+body{
+    background-color: #3d087b;
+    color: #3d087b;
+    padding-left: 60px;
+}
+
+/* clock image */
+div img{
+    position: relative;
+    left: 100px;
+    top: 10px;
+    width: 150px;
+    height: 50px;
+}
+#message{
+    color: grey;
+    background-color: #fff;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    position: relative;
+    left: 340px;
+    bottom: 60px;
+}
+/* ------------------ */
+
+/* Timing  */
+#clock{
+    width: 536px;
+    height: 130px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+    left: 570px;
+    bottom: 126px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.clock_time{
+    width: 80px;
+    height: 90px;
+    color: #F25CFE;
+    background-color: rgba(249, 128, 253, 0.492);
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+}
+.clock_time p{
+    font-size: x-large;
+    text-align: center;
+    color: #3d087b;
+    position: relative;
+}
+#clock p{
+    position: relative;
+    bottom: 47px;
+    left: -2px;
+    top: 39px;
+    right: -25px;
+}
+#AM{
+    background: linear-gradient(180deg, rgba(255, 0, 251, 0.608) 0%, rgba(255,0,249,1) 34%);
+    width: 60px;
+    height: 80px;
+    border-radius: 10px;
+    position: relative;
+    top: 25px;
+}
+#AM p{
+    font-size: xx-large;
+    color: #fff;
+    text-align: center;
+    top: -13px;
+}
+#shade_1{
+    background-color: #fff;
+    height: 130px;
+    width: 416px;
+    opacity: 71%;
+    border-radius: 10px;
+    position: relative;
+    bottom: 245px;
+    left: 625px;
+    z-index: -1;
+}
+#shade_2{
+    background-color: #fff;
+    height: 130px;
+    width: 400px;
+    opacity: 22%;
+    border-radius: 10px;
+    position: relative;
+    bottom: 360px;
+    left: 632px;
+    z-index: -2;
+}
+/* -------------------- */
+
+/* scheduler */
+#schedule{
+    background-color: #fff;
+    color: #3d087b;
+    width: 450px;
+    height: 300px;
+    border-radius: 15px;
+    position: relative;
+    left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    bottom: 435px;
+}
+
+.dropdown{
+    color: #3d087b;
+    border: 1px solid rgba(128, 128, 128, 0.25);
+    border-radius: 3px;
+    height: 28px;
+    background-color: #fff;
+    position: relative;
+    left: 80px;
+    bottom: 10px;
+    width: 200px;
+    top: 12px;
+}
+.image_Schedule{
+    height: 25px;
+    width: 25px;
+    position: relative;
+    bottom: 30px;
+    left: 20px;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+}
+.items>p{
+    position: relative;
+    left: 40px;
+    align-items: center;
+}
+/* morning */
+#goodmorning{
+    background-color: #f35cfe5f;
+    width: 450px;
+    height: 90px;
+    color: #fff;
+    border-radius: 10px;
+    position: relative;
+    bottom: 440px;
+    left: 102px;
+}
+#goodmorning h2{
+    text-align: center;
+    position: relative;
+    top: 30px;
+    /* font-weight:bolder; */
+    font: normal normal 900 27px/34px Bauhaus Hv BT;
+}
+
+
+/* set alarm */
+#alarm{
+    background: rgb(8,0,255);
+    background: linear-gradient(84deg, rgba(8,0,255,1) 0%, rgba(255,0,249,1) 34%);
+    border-radius: 4px;
+    color: #fff;
+    width: 250px;
+    text-align: center;
+    background-size: contain;
+    height: 33px;
+    position: relative;
+    left: 103px;
+    bottom: 445px;
+}
+#alarm_message{
+    background-color: #fff;
+    color: grey;
+    font-size: small;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 5px;
+    position: relative;
+    bottom: 690px;
+    left: 50px;
+}
+
+/* botto, alarm schedule */
+#sched{
+    background-color: #f35cfe5f;
+    color: #F25CFE;
+    width: 195px;
+    height: 90px;
+    border-radius:10px ;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    bottom: 480px;
+    left: 360px;
+    font-size: small;
+}
+
+/* breakfast */
+#breakfast{
+    color: #8E53F0;
+    background-color: #fff;
+    width: 536px;
+    height: 130px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 930px;
+    left: 570px;
+}
+#breakfast h2{
+    position: relative;
+    top: 55px;
+    text-align: center;
+    font-size: x-large;
+    
+}
+#component{
+    width: 536px;
+    position: relative;
+    bottom: 868px;
+    height: 246px;
+    top: -1020px;
+    left: 570px;
+    border-radius: 10px;
+}
+#note{
+    color: #F25CFE;
+    position: relative;
+    bottom: 800px;
+    top: -695px;
+    left: 640px;
+    width: 467px;
+}

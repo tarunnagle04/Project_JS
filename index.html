@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+</head>
+
+<body>
+    <div>
+        <img src="clock_logo.png" alt="Clock Image">
+    </div>
+    <div>
+        <p id="message">The message and Image <br> will change according <br> to the time</p>
+    </div>
+    <div id="clock">
+        <p>TIME</p>
+        <div class="clock_time">
+            <p id="hours" style="top: -10px;"></p>
+        </div>
+        <h1 style="margin-top: 40.44px;">:</h1>
+        <div class="clock_time">
+            <p id="minutes" style="top: -10px;"></p>
+        </div>
+        <h1 style="margin-top: 40.44px;">:</h1>
+        <div class="clock_time">
+            <p id="seconds" style="top: -10px;"></p>
+        </div>
+        <div id="AM">
+            <p id="ampm"></p>
+        </div>
+    </div>
+    <div id="shade_1"></div>
+    <div id="shade_2"></div>
+    <div id="schedule">
+        <div class="items">
+            <img src="sun.jpg" alt="" class="image_Schedule">
+            <p>Set wake up time</p>
+            <select id="morning" name="morning" class="dropdown">
+                <option value="08 AM - 09 AM" >08 AM - 09 AM</option>
+                <option value="09 AM - 10 AM" >09 AM - 10 AM</option>
+                <option value="10 AM - 11 AM" >10 AM - 11 AM</option>
+                <option value="11 AM - 12 PM" >11 AM - 12 PM</option>
+            </select>
+        </div>
+        <div class="items">
+            <img src="lunch_time.jpg" alt="" class="image_Schedule">
+            <p>Set lunch time</p>
+            <select id="noon" style="left: 98px;" name="afternoon" class="dropdown">
+                <option value="12 PM - 01 PM" >12 PM - 01 PM</option>
+                <option value="01 PM - 02 PM" >01 PM - 02 PM</option>
+                <option value="02 PM - 03 PM" >02 PM - 03 PM</option>
+                <option value="03 PM - 04 PM" >03 PM - 04 PM</option>
+            </select>
+        </div>
+        <div class="items">
+            <img src="nap_time.jpg" alt="" class="image_Schedule">
+            <p>Set nap time</p>
+            <select id="eve" style="left: 110px;" name="evening" class="dropdown">
+                <option value="04 PM - 05 PM" >04 PM - 05 PM</option>
+                <option value="05 PM - 06 PM" >05 PM - 06 PM</option>
+                <option value="06 PM - 07 PM" >06 PM - 07 PM</option>
+                <option value="07 PM - 08 PM" >07 PM - 08 PM</option>
+            </select>
+        </div>
+        <div class="items">
+            <img src="nap_time.jpg" alt="" class="image_Schedule">
+            <p>Set night time</p>
+            <select id="night" style="left: 100px;" name="night" class="dropdown">
+                <option value="08 PM - 09 PM" >08 PM - 09 PM</option>
+                <option value="09 PM - 10 PM" >09 PM - 10 PM</option>
+                <option value="10 PM - 11 PM" >10 PM - 11 PM</option>
+                <option value="11 PM - 12 AM" >11 PM - 12 AM</option>
+            </select>
+        </div>
+    </div>
+    <div id="goodmorning">
+        <h2>GOOD MORNING!! WAKE UP !!</h2>
+    </div>
+    <div id="alarm" onclick="values()" onmouseover="hoverFunction1()" onmouseout="hoverFunction2()">
+        <h3 id="SET">Set Alarm</h3>
+    </div>
+    <div id="sched">
+        <p id="SCHED">Wake Up Time : Set Time<br> Lunch Time : Set Time<br>Nap Time : Set Time <br>Night Time : Set Time</p>
+    </div>
+    <div id="breakfast">
+        <h2 id="breakfasT"></h2>
+    </div>
+    <div id="alarm_message">
+        <p>Time will be updated here after clicking on "Set Alarm"</p>
+    </div>
+    <div>
+        <p id="note">Note: Go to Artboard 3(Assets) to see all the assets used in this project</p>
+    </div>
+    <div>
+        <img id="component" alt="Image from JS">
+    </div>
+</body>
+
+</html>

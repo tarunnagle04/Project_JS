@@ -5,7 +5,11 @@ clock_fn = () => {
         if (h >= 10) {
             if(h>12){
                 h = h - 12;
-                return ("0"+h);
+                if(h<10){
+                    return ("0"+h);
+                }else{
+                    return h;
+                }
             }
         } else {
             return ("0" + h);
